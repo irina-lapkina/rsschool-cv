@@ -3,10 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/svg/favicon.ico">
 </head>
 <body>
-
+    <header class = "header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class = "main main-container">
+        <div class="container">
+            <section class="section" id="about">
+            <img class="round" src="./assets/img/myphoto.jpg" alt="my photo" width="200" height="200">
+            <h1 class=".section-title h1">Irina Budkina</h1>
+            <p>Fitness trainer. Polygraphy designer. Cat photografer. Future front-end developer</p>
+            </section>
+            <hr>
+            <section class="section" id="contacts">
+                <h2 class=".section-title">Contacts</h2>
+                <ul>
+                    <li>Saratov, Russia</li>
+                    <li>infokotostudio@gmail.com</li>
+                    <li>+7 953 630 87 73</li>
+                </ul>
+            </section>
+            <hr>
+            <section class="section" id="summary">
+                <h2 class=".section-title">Summary</h2>
+                <p>I was a designer, a cat photographer and fitness trainer. Maybe a would be a front-end developer too.</p>
+            </section>
+            <hr>
+            <section class="section" id="skills">
+                <h2 class=".section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Adobe Photoshop, Adobe Lightroom, Corel Draw</li>
+                </ul>
+            </section>
+            <hr>
+            <section class="section" id="code">
+                <h2 class=".section-title">Code</h2>
+                    <pre class="pre">
+                        <code class="code">
+    function greet() {
+        console.log('Hello, world!');
+    }
+    
+    greet();
+                </code>
+            </pre>
+            </section>
+            <hr>
+            <section class="section" id="projects">
+                <h2 class=".section-title">Projects</h2>
+                <a href="https://leangreen.ru/" target="_blank" rel="noopener">
+                <img src="./assets/img/project1.png" alt="leangreen" width="300" height="251">
+                </a>
+                <br>
+                <a class="link" href="https://leangreen.ru/" target="_blank" rel="noopener">Leangreen company web catalogue</a>
+            </section>
+            <hr>
+            <section class="section" id="courses">
+                <h2 class=".section-title">Сourses</h2>
+                <a class="link" href="https://rs.school/courses/javascript-preschool-ru" target="_blank">JS / Front-end Pre-school RU 2024</a>
+            </section>
+            <hr>
+            <section class="section" id="education">
+                <h2 class=".section-title">Education</h2>
+                <p>Saratov State University 2002</p>
+            </section>
+            <hr>
+            <section class="section" id="english">
+                <h2 class=".section-title">English</h2>
+                <p>A2</p>
+            </section>
+        </div>
+    </main>
+    <footer class = "footer">
+        <div class="container footer-container">
+            <a class="footer-link" href="https://github.com/irina-lapkina" target="_blank" rel="noopener">irina-lapkina</a>
+            <p>
+                2024
+            </p>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener">
+                <img src="./assets/svg/rs_school_js.svg" alt="rs_school_logo" width="135" height="50">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
